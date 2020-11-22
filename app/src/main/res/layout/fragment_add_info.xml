@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tabbed_layout.donate.AddInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name_text_input_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="52dp"
+                android:hint="@string/name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/name_et_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_text_input_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="52dp"
+                android:hint="@string/email"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name_text_input_pro">
+
+                <EditText
+                    android:id="@+id/email_et_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:background="@android:color/transparent" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/dob_text_input_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="52dp"
+                android:hint="@string/dob"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email_text_input_pro">
+
+                <EditText
+                    android:id="@+id/dob_et_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="date" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/age_text_input_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="52dp"
+                android:hint="@string/age"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dob_text_input_pro">
+
+                <EditText
+                    android:id="@+id/age_et_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="date" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/body_weight_text_input_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="52dp"
+                android:hint="@string/body_weight"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/age_text_input_pro">
+
+                <EditText
+                    android:id="@+id/body_weight_et_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="numberDecimal" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phone_text_input_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="52dp"
+                android:hint="@string/phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/body_weight_text_input_pro">
+
+                <EditText
+                    android:id="@+id/phone_et_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/address_text_input_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="52dp"
+                android:hint="@string/address"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phone_text_input_pro">
+
+                <EditText
+                    android:id="@+id/address_et_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:inputType="textPostalAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RadioGroup
+                android:id="@+id/genderGroup"
+                android:checkedButton="@+id/radio_button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/address_text_input_pro"
+                >
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    app:useMaterialThemeColors="false"
+                    app:buttonTint="@color/colorPrimary"
+                    android:text="@string/male"/>
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    app:useMaterialThemeColors="false"
+                    app:buttonTint="@color/colorPrimary"
+                    android:text="@string/female"/>
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radio_trans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/trans"
+                    app:buttonTint="@color/colorPrimary"
+                    app:useMaterialThemeColors="false" />
+            </RadioGroup>
+
+            <HorizontalScrollView
+                android:id="@+id/radio_btn_scroll"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/genderGroup">
+
+
+                <RadioGroup
+                    android:id="@+id/blood_group"
+                    android:checkedButton="@+id/radio_button_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    >
+
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/o_pos"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="O+"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/a_pos"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="A+"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/b_pos"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="B+"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"/>
+
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/ab_pos"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="AB+"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/o_neg"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="O-"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/a_neg"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="A-"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/b_neg"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="B-"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"/>
+
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/ab_neg"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/blood_group"
+                        android:button="@null"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:text="AB-"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                </RadioGroup>
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/submit_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/get_otp"
+                android:layout_gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/radio_btn_scroll" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/otp_text_input_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        android:layout_marginTop="52dp"
+        android:hint="@string/otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/otp_et_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/find_donor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/address_text_input_pro"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</FrameLayout>

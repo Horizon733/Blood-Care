@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Blood Care</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password"><i>Forgot Password?</i></string>
+    <string name="or">OR</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_link_text">Already have an account? Login</string>
+    <string name="register_link_text">Don\'t have an account? Register</string>
+    <string name="join_us">Join Us</string>
+    <string name="confrim_password">Confirm Password</string>
+    <string name="phone">Phone No</string>
+    <string name="profile_update">Update Profile</string>
+    <string name="name">Full Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="donate_blood_intro">Donate Blood just on One Click</string>
+    <string name="dob">Date of Birth</string>
+    <string name="age">Age</string>
+    <string name="body_weight">Body Weight</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="trans">Trans</string>
+    <string name="address">Address</string>
+    <string name="submit">Submit</string>
+    <string name="otp">Enter OTP</string>
+    <string name="find_donor">Find Donor</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="finding_donor">Please wait until someone accepts your request. <br /> approx 30mins...</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trans</item>
+    </string-array>
+</resources>
